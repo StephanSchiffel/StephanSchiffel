@@ -7,7 +7,7 @@
     <role>black</role>
     <player>LEGAL</player>
     <player>GROUP12</player>
-    <timestamp>1712137090635</timestamp>
+    <timestamp>1712137096701</timestamp>
     <startclock>10</startclock>
     <playclock>5</playclock>
     <history>
@@ -36,7 +36,26 @@
             <move>(MOVE 2 1 1 3)</move>
             <move>NOOP</move>
         </step>
+        <step>
+            <step-number>4</step-number>
+            <move>NOOP</move>
+            <move>(MOVE 3 3 2 1)</move>
+            <error>
+                <player>group12</player>
+                <type>timeout</type>
+                <msg>player remote(group12, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8006) timed out!</msg>
+            </error>
+            <error>
+                <player>group12</player>
+                <type>illegal_move</type>
+                <msg>Illegal move "null" from remote(group12, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8006) in step 4</msg>
+            </error>
+        </step>
     </history>
+    <scores>
+        <reward>0</reward>
+        <reward>100</reward>
+    </scores>
     <states>
         <state>
             <fact>
@@ -316,6 +335,92 @@
                 <arg>3</arg>
                 <arg>3</arg>
                 <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>3</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>HEIGHT</prop-f>
+                <arg>5</arg>
+            </fact>
+        </state>
+        <state>
+            <fact>
+                <prop-f>CONTROL</prop-f>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>WIDTH</prop-f>
+                <arg>3</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>1</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>3</arg>
+                <arg>WHITE</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
