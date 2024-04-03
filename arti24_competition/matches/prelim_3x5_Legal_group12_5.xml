@@ -7,13 +7,33 @@
     <role>black</role>
     <player>LEGAL</player>
     <player>GROUP12</player>
-    <timestamp>1712137084481</timestamp>
+    <timestamp>1712137090635</timestamp>
     <startclock>10</startclock>
     <playclock>5</playclock>
     <history>
         <step>
             <step-number>1</step-number>
             <move>(MOVE 1 1 2 3)</move>
+            <move>NOOP</move>
+        </step>
+        <step>
+            <step-number>2</step-number>
+            <move>NOOP</move>
+            <move>(MOVE 2 5 3 3)</move>
+            <error>
+                <player>group12</player>
+                <type>timeout</type>
+                <msg>player remote(group12, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8006) timed out!</msg>
+            </error>
+            <error>
+                <player>group12</player>
+                <type>illegal_move</type>
+                <msg>Illegal move "null" from remote(group12, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8006) in step 2</msg>
+            </error>
+        </step>
+        <step>
+            <step-number>3</step-number>
+            <move>(MOVE 2 1 1 3)</move>
             <move>NOOP</move>
         </step>
     </history>
@@ -158,6 +178,178 @@
             <fact>
                 <prop-f>CELL</prop-f>
                 <arg>2</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>HEIGHT</prop-f>
+                <arg>5</arg>
+            </fact>
+        </state>
+        <state>
+            <fact>
+                <prop-f>CONTROL</prop-f>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>WIDTH</prop-f>
+                <arg>3</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>3</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>3</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>HEIGHT</prop-f>
+                <arg>5</arg>
+            </fact>
+        </state>
+        <state>
+            <fact>
+                <prop-f>CONTROL</prop-f>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>WIDTH</prop-f>
+                <arg>3</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>3</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>3</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>3</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
                 <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
