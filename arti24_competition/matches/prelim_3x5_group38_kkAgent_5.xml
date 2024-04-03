@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="../stylesheets/knightsgames/knightthrough_wxh.xsl"?><match>
-    <match-id>prelim_3x5_group14_Legal_5</match-id>
+    <match-id>prelim_3x5_group38_kkAgent_5</match-id>
     <sight-of>RANDOM</sight-of>
     <gdl-version>1</gdl-version>
     <role>white</role>
     <role>black</role>
-    <player>GROUP14</player>
-    <player>LEGAL</player>
-    <timestamp>1712145275926</timestamp>
+    <player>GROUP38</player>
+    <player>KKAGENT</player>
+    <timestamp>1712139799521</timestamp>
     <startclock>10</startclock>
     <playclock>5</playclock>
     <history>
@@ -15,51 +15,21 @@
             <step-number>1</step-number>
             <move>(MOVE 1 1 2 3)</move>
             <move>NOOP</move>
-            <error>
-                <player>group14</player>
-                <type>timeout</type>
-                <msg>player remote(group14, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8008) timed out!</msg>
-            </error>
-            <error>
-                <player>group14</player>
-                <type>illegal_move</type>
-                <msg>Illegal move "null" from remote(group14, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8008) in step 1</msg>
-            </error>
         </step>
         <step>
             <step-number>2</step-number>
             <move>NOOP</move>
-            <move>(MOVE 2 5 3 3)</move>
+            <move>(MOVE 1 4 2 3)</move>
         </step>
         <step>
             <step-number>3</step-number>
             <move>(MOVE 2 1 1 3)</move>
             <move>NOOP</move>
-            <error>
-                <player>group14</player>
-                <type>timeout</type>
-                <msg>player remote(group14, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8008) timed out!</msg>
-            </error>
-            <error>
-                <player>group14</player>
-                <type>illegal_move</type>
-                <msg>Illegal move "null" from remote(group14, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8008) in step 3</msg>
-            </error>
         </step>
         <step>
             <step-number>4</step-number>
             <move>NOOP</move>
-            <move>(MOVE 3 3 2 1)</move>
-            <error>
-                <player>group14</player>
-                <type>timeout</type>
-                <msg>player remote(group14, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8008) timed out!</msg>
-            </error>
-            <error>
-                <player>group14</player>
-                <type>illegal_move</type>
-                <msg>Illegal move "null" from remote(group14, gdlVersion:v1, host:localhost, ip:127.0.0.1, port:8008) in step 4</msg>
-            </error>
+            <move>(MOVE 2 3 1 1)</move>
         </step>
     </history>
     <scores>
@@ -250,15 +220,9 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>3</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
                 <arg>2</arg>
                 <arg>3</arg>
-                <arg>WHITE</arg>
+                <arg>BLACK</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
@@ -298,14 +262,14 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>3</arg>
+                <arg>2</arg>
                 <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>4</arg>
+                <arg>3</arg>
+                <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
@@ -342,15 +306,9 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>3</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
                 <arg>2</arg>
                 <arg>3</arg>
-                <arg>WHITE</arg>
+                <arg>BLACK</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
@@ -384,14 +342,14 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>3</arg>
+                <arg>2</arg>
                 <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>4</arg>
+                <arg>3</arg>
+                <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
@@ -422,19 +380,13 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>2</arg>
+                <arg>1</arg>
                 <arg>1</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
                 <arg>1</arg>
-                <arg>3</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
                 <arg>3</arg>
                 <arg>WHITE</arg>
             </fact>
@@ -470,14 +422,14 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>3</arg>
+                <arg>2</arg>
                 <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>4</arg>
+                <arg>3</arg>
+                <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
