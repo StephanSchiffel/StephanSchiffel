@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="../stylesheets/knightsgames/knightthrough_wxh.xsl"?><match>
-    <match-id>round1_g1_6x6_group14_patrekur_10</match-id>
+    <match-id>round1_g1_6x6_group14_bryndis_10</match-id>
     <sight-of>RANDOM</sight-of>
     <gdl-version>1</gdl-version>
     <role>white</role>
     <role>black</role>
     <player>GROUP14</player>
-    <player>PATREKUR</player>
-    <timestamp>1712175499600</timestamp>
+    <player>BRYNDIS</player>
+    <timestamp>1712175550494</timestamp>
     <startclock>10</startclock>
     <playclock>10</playclock>
     <history>

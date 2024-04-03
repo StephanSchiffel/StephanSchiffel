@@ -1,50 +1,45 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="../stylesheets/knightsgames/knightthrough_wxh.xsl"?><match>
-    <match-id>round1_g1_6x6_group14_patrekur_10</match-id>
+    <match-id>round1_g1_6x6_group36_group14_10</match-id>
     <sight-of>RANDOM</sight-of>
     <gdl-version>1</gdl-version>
     <role>white</role>
     <role>black</role>
+    <player>GROUP36</player>
     <player>GROUP14</player>
-    <player>PATREKUR</player>
-    <timestamp>1712175499600</timestamp>
+    <timestamp>1712177255804</timestamp>
     <startclock>10</startclock>
     <playclock>10</playclock>
     <history>
         <step>
             <step-number>1</step-number>
-            <move>(MOVE 4 2 3 4)</move>
+            <move>(MOVE 1 1 2 3)</move>
             <move>NOOP</move>
         </step>
         <step>
             <step-number>2</step-number>
             <move>NOOP</move>
-            <move>(MOVE 2 5 3 4)</move>
+            <move>(MOVE 1 5 3 4)</move>
         </step>
         <step>
             <step-number>3</step-number>
-            <move>(MOVE 1 1 2 3)</move>
+            <move>(MOVE 2 3 1 5)</move>
             <move>NOOP</move>
         </step>
         <step>
             <step-number>4</step-number>
             <move>NOOP</move>
-            <move>(MOVE 3 4 2 3)</move>
+            <move>(MOVE 2 5 1 3)</move>
         </step>
         <step>
             <step-number>5</step-number>
-            <move>(MOVE 6 2 5 4)</move>
+            <move>(MOVE 1 5 2 6)</move>
             <move>NOOP</move>
-        </step>
-        <step>
-            <step-number>6</step-number>
-            <move>NOOP</move>
-            <move>(MOVE 2 3 1 1)</move>
         </step>
     </history>
     <scores>
-        <reward>0</reward>
         <reward>100</reward>
+        <reward>0</reward>
     </scores>
     <states>
         <state>
@@ -216,14 +211,8 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
+                <arg>2</arg>
                 <arg>3</arg>
-                <arg>4</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>1</arg>
                 <arg>WHITE</arg>
             </fact>
             <fact>
@@ -276,6 +265,12 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
                 <arg>5</arg>
                 <arg>2</arg>
                 <arg>WHITE</arg>
@@ -326,6 +321,322 @@
                 <prop-f>CELL</prop-f>
                 <arg>1</arg>
                 <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>5</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>6</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>HEIGHT</prop-f>
+                <arg>6</arg>
+            </fact>
+        </state>
+        <state>
+            <fact>
+                <prop-f>CONTROL</prop-f>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>WIDTH</prop-f>
+                <arg>6</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>3</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>5</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>6</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>5</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>6</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>5</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>6</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>5</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>6</arg>
+                <arg>5</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>HEIGHT</prop-f>
+                <arg>6</arg>
+            </fact>
+        </state>
+        <state>
+            <fact>
+                <prop-f>CONTROL</prop-f>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>WIDTH</prop-f>
+                <arg>6</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>5</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>4</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>5</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>6</arg>
+                <arg>1</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>5</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>6</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>1</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>2</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>3</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>5</arg>
+                <arg>6</arg>
+                <arg>BLACK</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
+                <arg>6</arg>
+                <arg>6</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
@@ -374,160 +685,14 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
+                <arg>1</arg>
                 <arg>3</arg>
-                <arg>4</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>4</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>4</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>6</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
                 <arg>1</arg>
                 <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>4</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>HEIGHT</prop-f>
-                <arg>6</arg>
-            </fact>
-        </state>
-        <state>
-            <fact>
-                <prop-f>CONTROL</prop-f>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>WIDTH</prop-f>
-                <arg>6</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>3</arg>
                 <arg>WHITE</arg>
             </fact>
             <fact>
@@ -586,147 +751,7 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
                 <arg>4</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>4</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>HEIGHT</prop-f>
-                <arg>6</arg>
-            </fact>
-        </state>
-        <state>
-            <fact>
-                <prop-f>CONTROL</prop-f>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>WIDTH</prop-f>
-                <arg>6</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>3</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>4</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
                 <arg>2</arg>
                 <arg>WHITE</arg>
             </fact>
@@ -776,12 +801,6 @@
                 <prop-f>CELL</prop-f>
                 <arg>6</arg>
                 <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
@@ -824,161 +843,21 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>4</arg>
+                <arg>2</arg>
+                <arg>6</arg>
                 <arg>WHITE</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>2</arg>
+                <arg>1</arg>
                 <arg>3</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
                 <arg>3</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
                 <arg>4</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>1</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>2</arg>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>6</arg>
                 <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>2</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>4</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>3</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>4</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>6</arg>
-                <arg>5</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>HEIGHT</prop-f>
-                <arg>6</arg>
-            </fact>
-        </state>
-        <state>
-            <fact>
-                <prop-f>CONTROL</prop-f>
-                <arg>WHITE</arg>
-            </fact>
-            <fact>
-                <prop-f>WIDTH</prop-f>
-                <arg>6</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>1</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>5</arg>
-                <arg>4</arg>
-                <arg>WHITE</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
@@ -1030,19 +909,25 @@
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
+                <arg>4</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
+            </fact>
+            <fact>
+                <prop-f>CELL</prop-f>
                 <arg>5</arg>
                 <arg>2</arg>
                 <arg>WHITE</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>1</arg>
                 <arg>6</arg>
-                <arg>BLACK</arg>
+                <arg>2</arg>
+                <arg>WHITE</arg>
             </fact>
             <fact>
                 <prop-f>CELL</prop-f>
-                <arg>2</arg>
+                <arg>1</arg>
                 <arg>6</arg>
                 <arg>BLACK</arg>
             </fact>
@@ -1068,12 +953,6 @@
                 <prop-f>CELL</prop-f>
                 <arg>6</arg>
                 <arg>6</arg>
-                <arg>BLACK</arg>
-            </fact>
-            <fact>
-                <prop-f>CELL</prop-f>
-                <arg>1</arg>
-                <arg>5</arg>
                 <arg>BLACK</arg>
             </fact>
             <fact>
